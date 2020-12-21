@@ -1,0 +1,73 @@
+@media only screen and (max-width: 1105px) {
+    body {
+      background-color: lightblue;
+    }
+    .logo-area{
+        width: 100%;
+        text-align: left;
+    }
+    .logo-area img{
+        width: 20%;
+        padding: 10px;
+        
+    }
+    .menu-area .menu ul li{
+        text-align: center;
+    }
+    .menu-area .menu ul li a{
+        padding: 10px 20px;
+    }
+    .about-left-section{
+        width: 88%;
+    }
+    .image-box{
+        background-color: rgb(40, 247, 195);
+width: 83%;
+position: relative;
+margin: 0px auto;
+      }
+      .icon-box{
+        width: 64%;
+        background: blue;
+        text-align: center;
+        margin: -60px;
+        left: 31%;
+      }
+    
+  }
+ 
+
+  @media only screen and (max-width: 764px) {
+    .menu-area{
+        width: 100%;
+        text-align: center;
+        background-color: rgb(44, 115, 221);
+        overflow: hidden;
+
+    }
+    .logo-area{
+        width: 100%;
+        text-align: left;
+    }
+    .logo-area img{
+        width: 20%;
+        text-align: left;
+    }
+    .menu-area .menu ul li{
+        background: rgb(12, 148, 202);
+        text-align: left;
+        width: 100%;
+        display: block;
+        border-bottom: 2px solid white;
+        margin: 0px auto;
+        overflow: hidden;
+
+
+    }
+   .menu ul li:last-child{
+       border-bottom: none;
+   }
+   .menu-area .menu ul li a:hover{
+       background-color: lightgreen;
+   }
+  }

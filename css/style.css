@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-area{
+    background-color:#4f4242;
+    overflow: hidden;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.logo-area img{
+    margin: 15px;
+    width: 50%;
+}
+.menu-area{
+    width: 70%;
+    float: left;
+    text-align: center;
+ 
+}
+.menu ul{
+    list-style-type: none;
+    margin: 45px 10px;
+}
+.menu ul li{
+    display:inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    display: block;
+    font-size: 18px;
+    transition: all 1.0s ease;
+
+    
+}
+.banner-area{
+    background-color: rgba(95, 100, 95, 0.808);
+    overflow: hidden;
+    height: 80vh;
+}
+.banner-content{
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+}
+.headign-banner-details h1{
+    text-align: center;font-size: 4rem; padding-bottom: 25px;
+}
+.headign-banner-details p{
+    text-align: center;font-size: 1.6em; padding-bottom: 20px;
+}
+.banner-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.banner-btn a{
+    background: red;
+    text-decoration: none;
+    padding: 12px 54px;
+    font-size: 31px;
+    color: white;
+    font-weight: bold;
+}
+.about-heading h1{
+    width: 20%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: 4px solid red;
+
+    
+}
+.about-left-section{
+    width: 45%;
+    float: left;
+    overflow: hidden;
+}
+.about-right-section{
+    width: 55%;
+    float: right;
+    overflow: hidden;
+}
+.image-content{
+    margin: 25px;
+ 
+
+}
+.image-content .image-box{
+    background-color: rgb(40, 247, 195);
+    width: 60%;
+    position: relative;
+    
+  
+}
+.image-content .image-box img{
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    filter: contrast(100%);
+    filter: Saturation(100%);
+    height: 350px;
+}
+.icon-box{
+    position: absolute;
+    
+    margin: -64px 2px;
+    
+}
+.icon-box ul{
+
+    list-style: none;
+}
+.icon-box ul li{
+    display: inline-block;
+}
+.icon-box ul li a{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(241, 241, 241);
+    margin: 0px 10px;
+    display: block;
+    background-color: rgb(30, 79, 241);
+    color: white;
+    border-radius: 50%;
+}
+.about-right-content h1{
+    color: black;
+    text-align: center ;
+}

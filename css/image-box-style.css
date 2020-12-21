@@ -1,0 +1,74 @@
+body{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.uicard{
+    position: relative;
+    overflow: hidden;
+    background-color: #262626;
+    -webkit-box-shadow:2px 0 16px -4px(0,0,0,.5);
+    
+    box-shadow: 2px 0 16px -4px(0,0,0,.5);
+    
+}
+.uicard .pic img{
+    background-color: skyblue;
+}
+.uicard .pic img{
+    transition: all 0.5s ease 0.2s;
+}
+.uicard .pic img:hover{
+    opacity: 0.5;
+    transform: translateX(50%);
+}
+.details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background-color: purple;
+    transform-origin: left;
+    transform:perspective(2000px) rotateY(-90deg);
+    transition: all 0.5s;
+   
+ 
+}
+.uicard:hover .details{
+transform: perspective(2000px) rotateY(0deg);
+
+}
+.details .details-inner{
+    position: absolute;
+    background-color: white;
+    transform: rotateY(-50%);
+    margin-top: 30px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+   
+
+   
+}
+.details .details-inner ul{
+    padding: 0;
+    display: table;
+    margin: 10px auto 0;
+}
+.details .details-inner ul li{
+    float: left;
+    list-style-type: none;
+    margin: 0 4px;
+}
+.details .details-inner ul li a{
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(32, 22, 22);
+    color: white;
+    font-size: 25px;
+}
+.details .details-inner ul li a:hover{
+    background-color: skyblue;
+}
